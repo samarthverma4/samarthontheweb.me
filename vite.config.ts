@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/digital-soul-play/', // Add base URL for GitHub Pages
+  base: '/samarthontheweb.me/', // Add base URL for GitHub Pages
   server: {
     host: "::",
     port: 8080,
