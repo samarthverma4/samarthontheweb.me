@@ -52,12 +52,12 @@ export default function ExperimentsGrid() {
 
           <div className="text-center pt-8">
             
-              href="https://github.com/samarthverma4"
+              <a href="https://github.com/samarthverma4"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-sm underline hover:no-underline transition-all"
             >
-              view all on github →
+              view all on github
             </a>
           </div>
         </div>

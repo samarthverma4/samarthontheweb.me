@@ -3,7 +3,7 @@ const projects = [
     title: 'WildeDex',
     year: '2025',
     role: 'Frontend Developer',
-    description: 'A Pokédex-style web app for exploring wildlife species, built with HTML, CSS, and JavaScript. Focused on clean UI, responsive cards, and structured species data.',
+    description: 'A Pokedex-style web app for exploring wildlife species, built with HTML, CSS, and JavaScript. Focused on clean UI, responsive cards, and structured species data.',
     tech: ['React.js', 'HTML5', 'CSS3', 'JavaScript'],
     status: 'live',
     github: 'https://github.com/samarthverma4/WildeDex'
@@ -12,7 +12,7 @@ const projects = [
     title: 'Little Lemon Restaurant',
     year: '2025',
     role: 'Frontend Developer',
-    description: 'A modern, responsive restaurant website crafted with HTML, CSS, and JavaScript, designed to elegantly showcase menu offerings, reservations, and brand identity through clean layouts and intuitive UI components.',
+    description: 'A modern, responsive restaurant website crafted with HTML, CSS, and JavaScript, designed to showcase menu offerings and brand identity.',
     tech: ['React.js', 'Responsive Design', 'UI/UX', 'Performance Optimization'],
     status: 'live',
     github: 'https://github.com/samarthverma4/little-lemon-restaurant'
@@ -49,25 +49,25 @@ export default function WorkSection() {
                   </h3>
                   <div className="flex items-center gap-4 text-sm font-mono text-muted-foreground">
                     <span>{project.year}</span>
-                    <span>•</span>
+                    <span>.</span>
                     <span>{project.role}</span>
-                    <span>•</span>
+                    <span>.</span>
                     <span className={`px-2 py-1 border ${project.status === 'live' ? 'border-green-500 text-green-500' : 'border-muted-foreground'}`}>
                       {project.status}
                     </span>
                     {project.github && (
-                      <>
-                        <span>•</span>
+                      <span>
+                        <span>.</span>
                         
-                          href={project.github}
+                          <a href={project.github}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="font-mono text-sm hover:text-foreground transition-colors"
+                          className="font-mono text-sm hover:text-foreground transition-colors ml-4"
                           aria-label="View Code on GitHub"
                         >
                           view code
                         </a>
-                      </>
+                      </span>
                     )}
                   </div>
                 </div>
