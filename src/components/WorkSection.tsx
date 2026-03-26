@@ -3,7 +3,7 @@ const projects = [
     title: 'CartoonCare',
     year: '2026',
     role: 'Research Project',
-    description: 'A multimodal AI system for pediatric health communication that generates personalized medical storybooks by coupling Gemini 2.5 Flash (age-adaptive text) with Flux 2 Pro (style-consistent illustration). Deployed on AWS EC2 with a full CI pipeline (38 passing tests, 84% branch coverage).',
+    description: 'Parents enter their child\'s name, age, and condition — CartoonCare generates a personalized medical storybook with AI illustrations, making healthcare accessible for young patients. Features AI narration, 10+ language translation, customizable story settings, and a page-by-page reader with smooth transitions.',
     tech: ['Python', 'Flask', 'Gemini 2.5 Flash', 'Flux 2 Pro', 'Azure AI Foundry', 'AWS (EC2, S3)', 'JWT', 'pytest'],
     status: 'in progress',
     github: 'https://github.com/samarthverma4/CartoonCare'
@@ -12,7 +12,7 @@ const projects = [
     title: 'MonochromeMart',
     year: '2025',
     role: 'Team Research Project',
-    description: 'Benchmarked RAG vs. fine-tuning as grounding strategies for a domain-specific retail catalog. Found RAG precision dropped ~31% past the effective context window; implemented chunking and cross-encoder re-ranking that recovered ~18% precision on long-tail queries. Hybrid scoring improved top-5 relevance by ~22%.',
+    description: 'A full-stack e-commerce platform with an AI-powered shopping assistant built on Google\'s Gemini API. Features product browsing, real-time cart management, and intelligent product recommendations through a conversational interface.',
     tech: ['React', 'TypeScript', 'Node.js', 'Gemini API', 'RAG', 'Fine-Tuning', 'Drizzle ORM', 'Tailwind CSS'],
     status: 'in progress',
     github: 'https://github.com/samarthverma4/MonoChromeMart'
