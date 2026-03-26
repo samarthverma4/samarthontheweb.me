@@ -13,54 +13,90 @@ export default function AboutSection() {
 
             <div className="space-y-6 font-mono text-lg text-muted-foreground leading-relaxed">
               <p>
-                Detail-oriented Frontend Developer with hands-on experience in building
-                responsive and user-friendly web interfaces. Recently completed an impactful
-                internship at MMI Softwares Pvt. Ltd.
+                Second-year B.Tech student (CS & AI/ML, GLA University) with a
+                research focus on Multimodal AI, Human-Computer Interaction, and NLP.
+                My projects explore a central question: how can AI systems communicate
+                meaningfully with non-expert users?
               </p>
               <p>
-                Demonstrated ability to quickly learn and adapt to new technologies,
-                particularly in mastering React.js and contributing to live projects.
-                Strong focus on writing clean, maintainable code and optimizing UI performance.
+                Comfortable across the stack — React and TypeScript on the frontend,
+                Python with Flask and Node.js on the backend, and AI/ML pipelines with
+                PyTorch, HuggingFace, LangChain, and RAG. Experienced with AWS, Azure,
+                and GCP for deployment.
               </p>
               <p>
-                Proven track record of effective collaboration with design and backend teams,
-                consistently delivering high-quality solutions while maintaining a strong
-                attention to detail.
+                Beyond code, I bring experience in graphic design using Adobe, Canva, and
+                Affinity — helping college clubs with branding, creatives, and digital content.
               </p>
+            </div>
+
+            <div className="space-y-4">
+              <h3 className="font-mono text-lg">research interests</h3>
+              <div className="space-y-2 font-mono text-sm text-muted-foreground">
+                <div>Multimodal AI for Accessible Communication</div>
+                <div>LLM Grounding & Domain Adaptation</div>
+                <div>Natural Language Processing</div>
+                <div>Child-Centric HCI & Inclusive Design</div>
+              </div>
             </div>
           </div>
 
           <div className="space-y-12">
             <div className="space-y-4">
-              <h3 className="font-mono text-lg">core skills</h3>
-              <div className="space-y-2 font-mono text-sm text-muted-foreground">
-                <div>Frontend Development</div>
-                <div>Responsive Design</div>
-                <div>UI Optimization</div>
-                <div>Cross-browser Compatibility</div>
-                <div>Team Collaboration</div>
-                <div>Problem Solving</div>
+              <h3 className="font-mono text-lg">technologies</h3>
+              <div className="space-y-3 font-mono text-sm text-muted-foreground">
+                <div>
+                  <div className="text-foreground text-xs mb-1">languages</div>
+                  <div>Python, JavaScript (ES6+), SQL, Java</div>
+                </div>
+                <div>
+                  <div className="text-foreground text-xs mb-1">ai / ml</div>
+                  <div>PyTorch, TensorFlow, Scikit-learn, HuggingFace, LangChain, RAG, FAISS, Gemini API, OpenAI API</div>
+                </div>
+                <div>
+                  <div className="text-foreground text-xs mb-1">web & backend</div>
+                  <div>React.js, Flask, Node.js, Tailwind CSS, REST APIs</div>
+                </div>
+                <div>
+                  <div className="text-foreground text-xs mb-1">cloud & devops</div>
+                  <div>AWS (EC2, S3), Microsoft Azure, GCP, GitHub Actions</div>
+                </div>
+                <div>
+                  <div className="text-foreground text-xs mb-1">tools</div>
+                  <div>Git, Linux, Postman, VS Code, MySQL</div>
+                </div>
               </div>
             </div>
 
             <div className="space-y-4">
-              <h3 className="font-mono text-lg">technologies</h3>
+              <h3 className="font-mono text-lg">certifications</h3>
               <div className="space-y-2 font-mono text-sm text-muted-foreground">
-                <div>React.js</div>
-                <div>HTML5 / CSS3</div>
-                <div>JavaScript (ES6+)</div>
-                <div>Git Version Control</div>
-                <div>Responsive Web Design</div>
-                <div>UI/UX Best Practices</div>
+                <div>Microsoft Certified: Azure AI Fundamentals (AI-900)</div>
+                <div>Microsoft Certified: Azure Fundamentals (AZ-900)</div>
+                <div>Meta Front-End Developer Certificate</div>
               </div>
             </div>
 
             <div className="space-y-4">
               <h3 className="font-mono text-lg">experience</h3>
+              <div className="space-y-4 font-mono text-sm text-muted-foreground">
+                <div>
+                  <div>Frontend Developer Intern @ MMI Softwares Pvt. Ltd.</div>
+                  <div>May 2025 - July 2025</div>
+                </div>
+                <div>
+                  <div>Design & Media Team Member @ The Literario</div>
+                  <div>March 2025 - December 2025</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <h3 className="font-mono text-lg">education</h3>
               <div className="space-y-2 font-mono text-sm text-muted-foreground">
-                <div>Frontend Developer Intern @ MMI Softwares Pvt. Ltd.</div>
-                <div>May 2025 - July 2025</div>
-                <div>Mathura, Uttar Pradesh (Hybrid)</div>
+                <div>GLA University, Mathura</div>
+                <div>B.Tech, Computer Science & Engineering (AI/ML)</div>
+                <div>August 2024 - May 2028</div>
               </div>
             </div>
           </div>

@@ -1,28 +1,28 @@
 const projects = [
   {
-    title: 'WildeDex',
-    year: '2025',
-    role: 'Frontend Developer',
-    description: 'A Pokedex-style web app for exploring wildlife species, built with HTML, CSS, and JavaScript. Focused on clean UI, responsive cards, and structured species data.',
-    tech: ['React.js', 'HTML5', 'CSS3', 'JavaScript'],
-    status: 'live',
-    github: 'https://github.com/samarthverma4/WildeDex'
+    title: 'CartoonCare',
+    year: '2026',
+    role: 'Research Project',
+    description: 'A multimodal AI system for pediatric health communication that generates personalized medical storybooks by coupling Gemini 2.5 Flash (age-adaptive text) with Flux 2 Pro (style-consistent illustration). Deployed on AWS EC2 with a full CI pipeline (38 passing tests, 84% branch coverage).',
+    tech: ['Python', 'Flask', 'Gemini 2.5 Flash', 'Flux 2 Pro', 'Azure AI Foundry', 'AWS (EC2, S3)', 'JWT', 'pytest'],
+    status: 'in progress',
+    github: 'https://github.com/samarthverma4/CartoonCare'
   },
   {
-    title: 'Little Lemon Restaurant',
+    title: 'MonochromeMart',
     year: '2025',
-    role: 'Frontend Developer',
-    description: 'A modern, responsive restaurant website crafted with HTML, CSS, and JavaScript, designed to showcase menu offerings and brand identity.',
-    tech: ['React.js', 'Responsive Design', 'UI/UX', 'Performance Optimization'],
-    status: 'live',
-    github: 'https://github.com/samarthverma4/little-lemon-restaurant'
+    role: 'Team Research Project',
+    description: 'Benchmarked RAG vs. fine-tuning as grounding strategies for a domain-specific retail catalog. Found RAG precision dropped ~31% past the effective context window; implemented chunking and cross-encoder re-ranking that recovered ~18% precision on long-tail queries. Hybrid scoring improved top-5 relevance by ~22%.',
+    tech: ['React', 'TypeScript', 'Node.js', 'Gemini API', 'RAG', 'Fine-Tuning', 'Drizzle ORM', 'Tailwind CSS'],
+    status: 'in progress',
+    github: 'https://github.com/samarthverma4/MonoChromeMart'
   },
   {
     title: 'Digital Portfolio',
     year: '2025',
     role: 'Frontend Developer',
     description: 'A minimalist, responsive portfolio crafted with modern frontend tools to showcase projects, skills, and UI expertise with clarity and precision.',
-    tech: ['React.js', 'Component Design', 'CSS Modules', 'Git'],
+    tech: ['React.js', 'TypeScript', 'Tailwind CSS', 'Vite'],
     status: 'live',
     github: 'https://github.com/samarthverma4/samarthontheweb.me'
   }
@@ -58,8 +58,8 @@ export default function WorkSection() {
                     {project.github && (
                       <span>
                         <span>.</span>
-                        
-                          <a href={project.github}
+                        <a
+                          href={project.github}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="font-mono text-sm hover:text-foreground transition-colors ml-4"

@@ -1,14 +1,12 @@
 import CanvasExperiment from './CanvasExperiment'
 
 const experiments = [
-  { id: '001', title: 'Markdown Blog Engine' },
-  { id: '002', title: 'Framer Motion Playground' },
+  { id: '001', title: 'AI Chat Interface' },
+  { id: '002', title: 'Real-time Collaboration Tool' },
   { id: '003', title: 'Interactive Resume Builder' },
-  { id: '004', title: 'Typography Morph' },
-  { id: '005', title: 'Cellular Automata' },
-  { id: '006', title: 'Fluid Dynamics' },
-  { id: '007', title: 'Code Challenges Gallery' },
-  { id: '008', title: 'Generative Grid' },
+  { id: '004', title: 'Django REST API Starter' },
+  { id: '005', title: 'Markdown Blog Engine' },
+  { id: '006', title: 'Component Library' },
 ]
 
 export default function ExperimentsGrid() {
@@ -43,7 +41,7 @@ export default function ExperimentsGrid() {
                     {experiment.title}
                   </h3>
                   <div className="h-32 bg-muted relative overflow-hidden">
-                    <CanvasExperiment title="" />
+                    <CanvasExperiment title={experiment.title} />
                   </div>
                 </div>
               </div>
@@ -51,8 +49,8 @@ export default function ExperimentsGrid() {
           </div>
 
           <div className="text-center pt-8">
-            
-              <a href="https://github.com/samarthverma4"
+            <a
+              href="https://github.com/samarthverma4"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-sm underline hover:no-underline transition-all"

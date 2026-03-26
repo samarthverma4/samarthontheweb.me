@@ -21,19 +21,19 @@ export default function ContactSection() {
               <div className="space-y-4 font-mono text-sm">
                 <div className="flex items-center gap-4">
                   <span className="text-muted-foreground">email</span>
-                  <a href="mailto:samarth.verma_cs.aiml24@gla.ac.in" className="hover:text-muted-foreground transition-colors">
-                    samarth.verma_cs.aiml24@gla.ac.in
+                  <a href="mailto:rajeevnikky.15@gmail.com" className="hover:text-muted-foreground transition-colors">
+                    rajeevnikky.15@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-4">
                   <span className="text-muted-foreground">linkedin</span>
-                  <a href="https://linkedin.com/in/samarthverma" className="hover:text-muted-foreground transition-colors">
-                    linkedin.com/in/samarthverma
+                  <a href="https://linkedin.com/in/sam444" target="_blank" rel="noopener noreferrer" className="hover:text-muted-foreground transition-colors">
+                    linkedin.com/in/sam444
                   </a>
                 </div>
                 <div className="flex items-center gap-4">
                   <span className="text-muted-foreground">github</span>
-                  <a href="https://github.com/samarthverma4" className="hover:text-muted-foreground transition-colors">
+                  <a href="https://github.com/samarthverma4" target="_blank" rel="noopener noreferrer" className="hover:text-muted-foreground transition-colors">
                     github.com/samarthverma4
                   </a>
                 </div>
@@ -59,9 +59,9 @@ export default function ContactSection() {
               <div className="space-y-4">
                 <h3 className="font-mono text-lg">currently</h3>
                 <div className="space-y-2 font-mono text-sm text-muted-foreground">
-                  <div>exploring machine learning in creative coding</div>
-                  <div>developing new webgl techniques</div>
-                  <div>writing about experimental web design</div>
+                  <div>researching multimodal AI for accessible communication</div>
+                  <div>exploring LLM grounding & domain adaptation</div>
+                  <div>seeking a summer research internship</div>
                 </div>
               </div>
             </div>
